@@ -258,7 +258,7 @@ const Index = () => {
 
     const message = `New Registration:\n\nName: ${formData.name}\nFather Name: ${formData.fatherName}\nCourse: ${formData.course}\nInterest: ${formData.interest}\nContact: ${formData.contact}\nEmail: ${formData.email}\nLocation: ${formData.location}\nTransaction ID: ${formData.transactionId}\nMessage: ${formData.message || "N/A"}\n\nFee: 500 PKR`;
     const encodedMsg = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/923236762115?text=${encodedMsg}`;
+    const whatsappUrl = `https://wa.me/923291230536?text=${encodedMsg}`;
     window.open(whatsappUrl, '_blank');
   };
 
